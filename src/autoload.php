@@ -8,7 +8,7 @@ spl_autoload_register(
         if ($classes === null) {
             $classes = array(
                 'jenkins\\prueba\\Hola' => '/currency/Hola.php',
-                'jenkins\\prueba\\pru1' => '/currency/pru1.php'
+                'jenkins\\prueba\\prueba' => '/currency/prueba.php'
            );
         }
         $cn = strtolower($class);
